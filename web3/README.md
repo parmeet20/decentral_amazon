@@ -9,5 +9,5 @@ npm i hardhat
 npx hardhat init
 npx hardhat test
 npx hardhat node
-npx hardhat run ./ignition/modules/Dappazon.ts
+npx hardhat run ./ignition/modules/Dappazon.ts --network localhost
 ```
