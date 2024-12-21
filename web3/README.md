@@ -6,7 +6,7 @@ Try running some of the following tasks:
 
 ```shell
 npm i hardhat
-npx hardhat 
+npx hardhat init
 npx hardhat test
 npx hardhat node
 npx hardhat run ./ignition/modules/Dappazon.ts
