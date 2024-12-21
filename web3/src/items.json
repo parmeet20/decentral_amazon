@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Shoes",
+      "category": "Footwear",
+      "image": "https://imgs.search.brave.com/HOEdLyG7UmF6W2nQR3upwv5MBs0RxAuCitJFF3vpEKk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzk5LzM2LzMw/LzM2MF9GXzI5OTM2/MzAzNV9abFRjSmZN/bTdMTDQ1Z0p2ZFhO/TDlUNUl6MG5Uano2/OS5qcGc",
+      "rating": 4,
+      "price": 1000000000000000000,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Shirt",
+      "category": "Apparel",
+      "image": "https://imgs.search.brave.com/eDuUIAhpPrbrqgPQGWAkF8bBr2O-X4D2qEqXZsMD2g4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5obS5jb20vYXNz/ZXRzL2htLzdlL2Rk/LzdlZGRkMjkxNTcz/OWMxMGI0ZWMxYjE5/ZTk0MGRjMDMwNzUw/NTgyODMuanBnP2lt/d2lkdGg9MTUzNg",
+      "rating": 5,
+      "price": 500000000000000000,
+      "stock": 100
+    },
+    {
+      "id": 3,
+      "name": "Jeans",
+      "category": "Apparel",
+      "image": "https://imgs.search.brave.com/7kQIKd18cy-s0V5ZLFy8ittclZPjb4O6O5Ao5L6E57k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA4LzYwLzU2LzMx/LzM2MF9GXzg2MDU2/MzEwMF9ndTB2Vk1H/RVBHbk9INVgySW94/M2p1VWdpaVpicGdS/ei5qcGc",
+      "rating": 3,
+      "price": 800000000000000000,
+      "stock": 75
+    },
+    {
+      "id": 4,
+      "name": "Hat",
+      "category": "Accessories",
+      "image": "https://imgs.search.brave.com/APcUS4PRMM7xNVacD10OYWivu84qvFgmCkC4ZAIm32w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aGVs/YW5kbWFya3Byb2pl/Y3QuY29tL2Nkbi9z/aG9wL3Byb2R1Y3Rz/LzYwMjBfT25seV9Z/b3VfSGF0X0Zyb250/LmpwZz92PTE2NjYw/MTY1MTgmd2lkdGg9/MTA4MA",
+      "rating": 4,
+      "price": 300000000000000000,
+      "stock": 120
+    },
+    {
+      "id": 5,
+      "name": "Jacket",
+      "category": "Apparel",
+      "image": "https://imgs.search.brave.com/E_Uqe9wtBWI_wPFHH9OjYoaMYwK6uoL31XnotgJWGFw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzkzLzcxLzM3/LzM2MF9GXzkzNzEz/NzU1X2NPN3lDMzMx/Z2RxYlBJbXE3VDJO/bnc5UDJCUnM4eERi/LmpwZw",
+      "rating": 4,
+      "price": 1500000000000000000,
+      "stock": 30
+    },
+    {
+      "id": 6,
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "image": "https://imgs.search.brave.com/n3y-BrtvQqrF5ZwBxJIEtv3Y5LhMi534UbTMRmMwbnk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/Z2xhc3Nlc2RpcmVj/dC5jb20vY21zL0Zy/YW1lMzJfNl8xX2Jj/MTVhY2E5YzQucG5n/P3E9ODUmc2VvPXJh/eS1iYW4tc3VuZ2xh/c3Nlcw",
+      "rating": 5,
+      "price": 500000000000000000,
+      "stock": 60
+    },
+    {
+      "id": 7,
+      "name": "Backpack",
+      "category": "Accessories",
+      "image": "https://imgs.search.brave.com/nwv9j_1OJxkRh3XkmGaoAhlqL-e8FJgSSf4KxFoJUzk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcx/Mjc2NTk4L3Bob3Rv/L2JhY2twYWNrLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1s/VjJVNDZLLUJiWHU2/ME03T1lzLWc1WExn/YWhpY21KX1NpcTlR/TnF5V1g4PQ",
+      "rating": 3,
+      "price": 1200000000000000000,
+      "stock": 45
+    },
+    {
+      "id": 8,
+      "name": "Watch",
+      "category": "Accessories",
+      "image": "https://imgs.search.brave.com/pNG6wYGqkkEUeU_FGYvezWan79XFOA_TYR79ryecKQE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NzczNzYxL3Bob3Rv/L3JvbGV4LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1KYmNt/OFlxRGJuQi1PN3VM/RjNld0gxakRyaDFT/NUpxV3lSd1AtWEo1/VVo4PQ",
+      "rating": 4,
+      "price": 2000000000000000000,
+      "stock": 25
+    },
+    {
+      "id": 9,
+      "name": "Laptop",
+      "category": "Electronics",
+      "image": "https://imgs.search.brave.com/BNGadpTknbH3mYQxi0N2vvsymiPP9sD6rqDkLYZDRVs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/cG9ydHJhaXQtb2Yt/aWxsdW1pbmF0ZWQt/bGFwdG9wLmpwZz93/aWR0aD0xMDAwJmZv/cm1hdD1wanBnJmV4/aWY9MCZpcHRjPTA",
+      "rating": 5,
+      "price": 5000000000000000000,
+      "stock": 10
+    },
+    {
+      "id": 10,
+      "name": "Headphones",
+      "category": "Electronics",
+      "image": "https://imgs.search.brave.com/G4aKCoH6NN4eeZUoscyMGM3oEPGyVhKiGfFd1gx7Q1o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcy/ODQ3MjE4L3Bob3Rv/L2hlYWRwaG9uZXMu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVZYTEtIVXRHZEQ4/cFBIOFB6UkhTLTg3/UW5kekRzc1pwTWRz/T2ZaTmhLdVU9",
+      "rating": 4,
+      "price": 800000000000000000,
+      "stock": 40
+    }
+  ]
+}
