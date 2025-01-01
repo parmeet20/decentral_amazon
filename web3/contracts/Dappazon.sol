@@ -24,7 +24,7 @@ contract Dappazon {
     mapping(address => mapping(uint256 => Order)) public orders;
 
     string public name;
-
+    uint public id;
     address public owner;
     modifier onlyOwner() {
         require(msg.sender == owner);
@@ -37,7 +37,6 @@ contract Dappazon {
     }
     // function to list items
     function list(
-        uint256 _id,
         string memory _name,
         string memory _category,
         string memory _image,
@@ -45,8 +44,9 @@ contract Dappazon {
         uint256 _price,
         uint256 _stock
     ) public onlyOwner {
+        id+=1;
         Item memory item = Item(
-            _id,
+            id,
             _name,
             _category,
             _image,
@@ -54,7 +54,7 @@ contract Dappazon {
             _price,
             _stock
         );
-        items[_id] = item;
+        items[id] = item;
         emit List(_name, _price, _stock);
     }
     function buy(uint256 _id) public payable {
