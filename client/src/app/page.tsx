@@ -55,7 +55,7 @@ const Page = () => {
     if (!dappazonContract) return;
 
     try {
-      const itemCount = 10; // Adjust as necessary
+      const itemCount = await dappazonContract.methods.id().call(); // Adjust as necessary
       const itemsArray: Item[] = [];
       for (let id = 1; id <= itemCount; id++) {
         const item = await dappazonContract.methods.items(id).call();
@@ -111,7 +111,9 @@ const Page = () => {
   const openItemDetails = (item: Item) => {
     setSelectedItem(item);
   };
-  useEffect(()=>{fetchItems()},[dappazonContract])
+  useEffect(()=>{fetchItems()
+    loadBlockchain()
+  },[dappazonContract,buyItem])
   return (
     <div>
       <Navbar walletId={account ? account : ""} connectAccount={loadBlockchain} />
